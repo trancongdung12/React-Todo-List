@@ -1,0 +1,23 @@
+.TodoItem p {
+  font-size: 25px;
+}
+.TodoItem {
+  cursor: pointer;
+  width: 500px;
+  margin-left: 35%;
+  border: 1px solid #ddd;
+}
+.TodoItem-Done p{
+    text-decoration: line-through;
+    opacity: .3;
+}
+.TodoItem .img-check{
+  margin-top: 27px;
+  margin-right: 40px;
+  width: 30px;
+  height: 30px;
+}
+.TodoItem .item{
+  display: flex;
+  margin-left: 10px;
+}
